@@ -11,6 +11,6 @@ author:
 
 # Gems
 gems:
-
+  - jekyll-paginate
 #Others
 markdown: kramdown
