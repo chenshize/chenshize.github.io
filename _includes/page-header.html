@@ -4,7 +4,7 @@
   <a href="" class="btn">HOMEPAGE</a>
   <ul class="catalog">
       {% for catalog in site.catalog %}
-      <a href="{{ site.url }}/catalog/" title="CATALOG {{ catalog.url }}">{{ catalog.title }}</a>
+      <a href="{{ site.url }}/catalog/" title="CATALOG {{ site.owner.name }}">{{ site.owner.name }}</a>
       {% endfor %}
   </ul>
   <a href="about&contact" class="btn">ABOUT&CONTACT</a>
